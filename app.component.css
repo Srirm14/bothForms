@@ -1,0 +1,13 @@
+#f_container{
+    background-color: rgba(248, 236, 124, 0.815);
+    width: 100%;
+    height:max-content;
+    border-radius: 20px;
+}
+.form-control.ng-touched.ng-invalid{
+    border:1px solid red;
+}
+
+span{
+    color:red;
+}
