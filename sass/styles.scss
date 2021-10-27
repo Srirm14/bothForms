@@ -1,0 +1,43 @@
+
+
+$primary-col:#ff652f;
+$secondary-col:rgb(36, 113, 185);
+$font-weights:(
+        "regular":400,
+        "medium":500,
+        "bold":700
+    );
+
+
+
+body{
+
+    color:$primary-col;
+}
+*{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: map-get($font-weights,regular);
+}
+@mixin flex-center($direction){
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:$direction;
+}
+
+.main{
+    @include flex-center(row);
+    width:80%;
+    padding:12px;
+    background-color: $primary-col;
+    border-radius:50px;
+    &-p{
+        font-weight:map-get($font-weights,bold);
+        color:black;
+        &:hover{
+            color:green;
+          }
+    }
+}
+

@@ -1,0 +1,39 @@
+body {
+  color: #ff652f;
+}
+
+* {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  font-weight: 400;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 80%;
+  padding: 12px;
+  background-color: #ff652f;
+  border-radius: 50px;
+}
+
+.main-p {
+  font-weight: 700;
+  color: black;
+}
+
+.main-p:hover {
+  color: green;
+}
+/*# sourceMappingURL=styles.css.map */
